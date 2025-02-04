@@ -31,7 +31,7 @@ function createAndSendPDF() {
                 DriveApp.createFolder(folderName);
     
     // Template document settings
-    const templateId = '124PE6QFfPWe-FNBPRyAfVBKXgrh-pX89qqPNGGdy6Ms'; // Replace with your template ID
+    const templateId = 'GOOGLE DOC ID'; // Replace with your template ID
     
     // Create a copy of the template
     const docId = DriveApp.getFileById(templateId).makeCopy().getId();
